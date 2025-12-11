@@ -1,13 +1,15 @@
-
 import "./App.css";
+import Footer from "./components/ui/Footer";
+import Navbar from "./components/ui/Navbar";
+import LandingPage from "./pages/LandingPage";
 
 function App() {
-  
-
   return (
-    <>
-      <p className="text-4xl">Hii Pushpa Kaisi ho? hello Anubhav shanki inshan</p>
-    </>
+    <div className="min-h-screen flex flex-col font-sans">
+      <Navbar />
+      <LandingPage />
+      <Footer />
+    </div>
   );
 }
 
